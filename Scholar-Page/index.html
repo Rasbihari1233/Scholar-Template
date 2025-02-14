@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furni-template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Furni-bootstrap-template/assest/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header-area header-sticky background-header" id="header">
+        <nav class="navbar navbar-expand-xl">
+            <div class="container">
+                <a class="navbar-brand pe-3 text-white" href="#"> SCHOLAR</a>
+                <form class="form d-none d-xl-block" role="search">
+                    <input class="form-control" type="search" placeholder="Type Something" aria-label="Search" />
+                    <button class="btn search-icon" type="submit">
+                        <i class="fa-solid fa-magnifying-glass fw-bold"></i>
+                    </button>
+                </form>
+                <button class="navbar-toggler border-light shadow-none text-white" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mt-5 mt-xl-0 text-center align-items-center gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white py-2 px-3 rounded-5" aria-current="page"
+                                href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-2 px-4" href="#services"> services </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-2 px-4" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-2 px-4" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-2 px-4" href="#event">Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link py-2 px-4" href="register-now">Register Now!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active first-slide text-white">
+                        <span class="rounded-5 mb-4">OUR COURSES</span>
+                        <h2 class="mb-5 fw-bold">
+                            With Scholar Teachers,<br />Everything Is Easier
+                        </h2>
+                        <p class="mb-5">
+                            Scholar is free CSS template designed by TemplateMo for online
+                            educational related websites. This layout is based on the famous
+                            Bootstrap v5.3.0 framework.
+                        </p>
+                        <div class="btn-group">
+                            <a class="request " href="#register-now">Request Demo</a>
+                            <button class="d-flex align-items-center text-white">
+                                <i class="fa-solid fa-circle-play me-2"></i>What's Scholar?
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item second-slide text-white">
+                        <span class="rounded-5 mb-4">BEST RESULT</span>
+                        <h2 class="my-4 fw-bold">
+                            Get the best result out<br />of your effort
+                        </h2>
+                        <p class="mb-5">
+                            You are allowed to use this template for any educational or
+                            commercial purpose. You are not allowed to re-distribute the
+                            template ZIP file on any other website.
+                        </p>
+                        <div class="btn-group">
+                            <a class="request" href="#register-now">Request Demo</a>
+                            <button class="d-flex align-items-center text-white">
+                                <i class="fa-solid fa-circle-play me-2"></i>What's Scholar?
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item third-slide text-white">
+                        <span class="rounded-5 my-4">ONLINE LEARNING</span>
+                        <h2 class="mb-4 fw-bold">
+                            Online Learning helps<br />you save the time
+                        </h2>
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod temporious incididunt ut labore et dolore magna aliqua
+                            suspendisse.
+                        </p>
+                        <div class="btn-group">
+                            <a class="request me-4" href="#register-now">Request Demo</a>
+                            <button class="d-flex align-items-center text-white">
+                                <i class="fa-solid fa-circle-play me-2"></i>What's Scholar?
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="card-row container" id="services">
+        <div class="row pb-4">
+            <div class="col-icon col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="icon">
+                        <img src="https://themewagon.github.io/scholar/assets/images/service-01.png" alt="" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">Online Degrees</h5>
+                        <p class="card-text">
+                            Whenever you need free templates in HTML CSS, you just remember
+                            TemplateMo website.
+                        </p>
+                        <a href="#" class="btn btn-read">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-icon col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="icon">
+                        <img src="https://themewagon.github.io/scholar/assets/images/service-02.png" alt="" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">Short Courses</h5>
+                        <p class="card-text">
+                            You can browse free templates based on different tags such as
+                            digital marketing, etc.
+                        </p>
+                        <a href="#" class="btn btn-read">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-icon col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="icon">
+                        <img src="https://themewagon.github.io/scholar/assets/images/service-03.png" alt="" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bolder">Web Experts</h5>
+                        <p class="card-text">
+                            You can start learning HTML CSS by modifying free templates from
+                            our website too.
+                        </p>
+                        <a href="#" class="btn btn-read">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-left col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mx-auto">
+                            <h2 class="accordion-header d-flex justify-content-center">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Where Shall we begin?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-white">
+                                    Dolor<strong> almesit amet,</strong> consectetur adipiscing
+                                    elit, sed doesn't eiusmod tempor incididunt ut labore
+                                    consectetur <code>adipiscing</code> elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header d-flex justify-content-center">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do we work together?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-white">
+                                    Dolor<strong> almesit amet,</strong> consectetur adipiscing
+                                    elit, sed doesn't eiusmod tempor incididunt ut labore
+                                    consectetur <code>adipiscing</code> elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Quis
+                                    ipsum suspendisse ultrices gravida.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header d-flex justify-content-center">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Why SCHOLAR is best?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-white">
+                                    There are more than one hundred responsive HTML templates to
+                                    choose from <strong>Template</strong>Mo website. You can
+                                    browse by different tags or categories.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header d-flex justify-content-center">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Do we get the best support?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-white">
+                                    You can also search on Google with specific keywords such as
+                                    <code>templatemo business templates, templatemo gallery
+                      templates, admin dashboard templatemo, 3-column
+                      templatemo, etc.</code>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right col-lg-6">
+                    <h6>ABOUT US</h6>
+                    <h2>What Make Us The Best Academy Online?</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                        ipsum suspendisse ultrices gravid risus commodo.
+                    </p>
+                    <a href="#">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="latest-course text-center" id="courses">
+        <div class="container">
+            <h6>LATEST COURSES</h6>
+            <h3>Latest Courses</h3>
+            <ul class="list-bar mb-5">
+                <li>
+                    <a href="#">Show All</a>
+                </li>
+                <li>
+                    <a href="#">Webdesign</a>
+                </li>
+                <li>
+                    <a href="#">Development</a>
+                </li>
+                <li>
+                    <a href="#">Wordpress</a>
+                </li>
+            </ul>
+            <div class="row">
+                <div class="col-md-6 col-lg-6  col-xl-4  mb-4">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://themewagon.github.io/scholar/assets/images/course-01.jpg"
+                                class="card-img-top" alt="">
+                        </div>
+                        <span class="type">WEBDESIGN</span>
+                        <span class="price">
+                            <span>
+                                <small>$</small>
+                                160
+                            </span>
+                        </span>
+                        <div class="card-details">
+                            <h5>Stella Blair</h5>
+                            <a href="#">Learn Web Design</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6  col-xl-4 mb-4">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://themewagon.github.io/scholar/assets/images/course-02.jpg"
+                                class="card-img-top" alt="">
+                        </div>
+                        <span class="type">DEVELOPMENT</span>
+                        <span class="price">
+                            <span>
+                                <small>$</small>
+                                340
+                            </span>
+                        </span>
+                        <div class="card-details">
+                            <h5>Cindy Walker</h5>
+                            <a href="#">Web Development Tips</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6  col-xl-4 mb-4">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://themewagon.github.io/scholar/assets/images/course-03.jpg"
+                                class="card-img-top" alt="">
+                        </div>
+                        <span class="type">WORDPRESS</span>
+                        <span class="price">
+                            <span>
+                                <small>$</small>
+                                640
+                            </span>
+                        </span>
+                        <div class="card-details">
+                            <h5>David Hutson</h5>
+                            <a href="#">Latest Web Trends</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6  col-xl-4 mb-4">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://themewagon.github.io/scholar/assets/images/course-04.jpg"
+                                class="card-img-top" alt="">
+                        </div>
+                        <span class="type">DEVELOPMENT</span>
+                        <span class="price">
+                            <span>
+                                <small>$</small>
+                                450
+                            </span>
+                        </span>
+                        <div class="card-details">
+                            <h5>Stella Blair</h5>
+                            <a href="#">Online Learning Steps</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6  col-xl-4 mb-4">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://themewagon.github.io/scholar/assets/images/course-05.jpg"
+                                class="card-img-top" alt="">
+                        </div>
+                        <span class="type">WORDPRESS</span>
+                        <span class="price">
+                            <span>
+                                <small>$</small>
+                                320
+                            </span>
+                        </span>
+                        <div class="card-details">
+                            <h5>Sophia Rose</h5>
+                            <a href="#">Be a WordPress Master</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 mb-4">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://themewagon.github.io/scholar/assets/images/course-06.jpg"
+                                class="card-img-top" alt="">
+                        </div>
+                        <span class="type">WEBDESIGN</span>
+                        <span class="price">
+                            <span>
+                                <small>$</small>
+                                240
+                            </span>
+                        </span>
+                        <div class="card-details">
+                            <h5>David Hutson</h5>
+                            <a href="#">Full Stack Developer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="fun-facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <h2>150 +</h2>
+                    <p>Happy Students</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <h2>804 +</h2>
+                    <p>Course Hours</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <h2>50 +</h2>
+                    <p>Employed Students</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <h2>15 +</h2>
+                    <p>Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-the-team" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-sm-6 mb-2 card-col">
+                    <div class="trainer-card text-center">
+                        <img src="https://themewagon.github.io/scholar/assets/images/member-01.jpg" alt="">
+                        <h5>UX Teacher</h5>
+                        <h3>Sophia Rose</h3>
+                        <ul class="media d-flex align-items-center justify-content-center gap-4">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 mb-2 card-col">
+                    <div class="trainer-card text-center">
+                        <img src="https://themewagon.github.io/scholar/assets/images/member-02.jpg" alt="">
+                        <h5>Graphic Teacher</h5>
+                        <h3>Cindy Walker</h3>
+                        <ul class="media d-flex align-items-center justify-content-center gap-4">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 mb-2 card-col">
+                    <div class="trainer-card text-center">
+                        <img src="https://themewagon.github.io/scholar/assets/images/member-03.jpg" alt="">
+                        <h5>Full Stack Master</h5>
+                        <h3>David Hutson</h3>
+                        <ul class="media d-flex align-items-center justify-content-center gap-4">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 mb-2 card-col">
+                    <div class="trainer-card text-center">
+                        <img src="https://themewagon.github.io/scholar/assets/images/member-04.jpg" alt="">
+                        <h5>Digital Animatorr</h5>
+                        <h3>Stella Blair</h3>
+                        <ul class="media d-flex align-items-center justify-content-center gap-4">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="what-they-say">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="slide-holder mb-5">
+                        <div id="carouselExample1" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <p><i>"“Scholar is free website template provided by TemplateMo for educational
+                                            related websites. This CSS layout is based on Bootstrap v5.3.0
+                                            framework.”"</i></p>
+                                    <div class="author d-flex gap-3 align-items-center">
+                                        <div class="left">
+                                            <img src="https://themewagon.github.io/scholar/assets/images/testimonial-author.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="right">
+                                            <h3>Digital Animator</h3>
+                                            <h2>Stella Blair</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>"“Scholar is free website template provided by TemplateMo for educational related
+                                        websites. This CSS layout is based on Bootstrap v5.3.0 framework.”"</p>
+                                    <div class="author d-flex gap-3 align-items-center">
+                                        <div class="left">
+                                            <img src="https://themewagon.github.io/scholar/assets/images/testimonial-author.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="right">
+                                            <h3>Full Stack Master</h3>
+                                            <h2>Claude Dsvid</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <p>"“Scholar is free website template provided by TemplateMo for educational related
+                                        websites. This CSS layout is based on Bootstrap v5.3.0 framework.”"</p>
+                                    <div class="author d-flex gap-3 align-items-center">
+                                        <div class="left">
+                                            <img src="https://themewagon.github.io/scholar/assets/images/testimonial-author.jpg"
+                                                alt="">
+                                        </div>
+                                        <div class="right">
+                                            <h3>UI Expert</h3>
+                                            <h2>Thomas Jefferson</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 d-flex">
+                    <div class="text-holder">
+                        <h5>TESTIMONIALS</h5>
+                        <h2>What They Say About Us?</h2>
+                        <p>You can search free CSS templates on Google using different keywords such as templatemo
+                            portfolio, templatemo gallery, templatemo blue color, etc.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="upcoming-events" id="event">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h5>SCHEDULE</h5>
+                <h2>Upcoming Events</h2>
+            </div>
+            <div class="item">
+                <div class="image">
+                    <img src="https://themewagon.github.io/scholar/assets/images/event-01.jpg" alt="">
+                </div>
+                <ul class="d-flex justify-content-between">
+                    <li>
+                        <span class="category">WEB DESIGN</span>
+                        <h4>UI Best Practices</h4>
+                    </li>
+                    <li>
+                        <span>Date:</span>
+                        <h6>16 Feb 2036</h6>
+                    </li>
+                    <li>
+                        <span>Duration:</span>
+                        <h6>22 Hours</h6>
+                    </li>
+                    <li>
+                        <span>Price:</span>
+                        <h6>$120</h6>
+                    </li>
+                </ul>
+                <a href="#">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="item">
+                <div class="image">
+                    <img src="https://themewagon.github.io/scholar/assets/images/event-02.jpg" alt="">
+                </div>
+                <ul class="d-flex justify-content-between">
+                    <li>
+                        <span class="category">FRONT END</span>
+                        <h4>New Design Trend</h4>
+                    </li>
+                    <li>
+                        <span>Date:</span>
+                        <h6>24 Feb 2036</h6>
+                    </li>
+                    <li>
+                        <span>Duration:</span>
+                        <h6>30 Hours</h6>
+                    </li>
+                    <li>
+                        <span>Price:</span>
+                        <h6>$320</h6>
+                    </li>
+                </ul>
+                <a href="#">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+            <div class="item">
+                <div class="image">
+                    <img src="https://themewagon.github.io/scholar/assets/images/event-03.jpg" alt="">
+                </div>
+                <ul class="d-flex justify-content-between">
+                    <li>
+                        <span class="category">FULL STACK</span>
+                        <h4>Web Programming</h4>
+                    </li>
+                    <li>
+                        <span>Date:</span>
+                        <h6>12 Mar 2036</h6>
+                    </li>
+                    <li>
+                        <span>Duration:</span>
+                        <h6>48 Hours</h6>
+                    </li>
+                    <li>
+                        <span>Price:</span>
+                        <h6>$440</h6>
+                    </li>
+                </ul>
+                <a href="#">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us" id="register-now">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-0">
+                    <div class="contact">
+                        <h5>CONTACT US</h5>
+                        <h2>Feel Free To Contact Us Anytime</h2>
+                        <p>Thank you for choosing our templates. We provide you best CSS templates at absolutely 100%
+                            free of charge. You may support us by sharing our website to your friends.</p>
+                        <div class="badge">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <span>OFF</span>
+                                        50%
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>VALIDE: <strong>24 APRIL 2036</strong></span>
+                                    <h4>Special Offer <strong>50%</strong> OFF!</h4>
+                                </li>
+                                <li>
+                                    <a class="navigator" href="#">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form">
+                        <input class="name" type="text" placeholder="Your Name...">
+                        <input class="email" type="email" placeholder="Your E-mail...">
+                        <textarea class="text-area" name="text" id="text" placeholder="Your Message"></textarea>
+                        <button type="submit">Send Message Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="text-ct text-center text-white">
+                <p>Copyright © 2036 Scholar Organization. All rights reserved. &nbsp;&nbsp;&nbsp; Design: <a
+                        class="text-white" href="#">TemplateMo</a> Distribution: <a class="text-white"
+                        href="#">ThemeWagon</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 100) {
+                    $("#header").addClass("active");
+                }
+                else
+                    $("#header").removeClass("active");
+            })
+        });
+
+    </script>
+</body>
+
+</html>
